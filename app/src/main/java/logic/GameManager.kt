@@ -156,13 +156,15 @@ class GameManager(private val activity: Activity, private val lifeCount: Int = 3
     }
 
     private fun vibrateOnHit() {
-        val vibrator = activity.getSystemService(Activity.VIBRATOR_SERVICE) as android.os.Vibrator
-            vibrator.vibrate(
-                android.os.VibrationEffect.createOneShot(
-                    200,
-                    android.os.VibrationEffect.DEFAULT_AMPLITUDE
+        val vibrator =
+            (activity.getSystemService(Activity.VIBRATOR_SERVICE) as android.os.Vibrator).also {
+                it.vibrate(
+                    android.os.VibrationEffect.createOneShot(
+                        200,
+                        android.os.VibrationEffect.DEFAULT_AMPLITUDE
+                    )
                 )
-            )
+            }
 
     }
 
