@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreActivity"
+    android:background="@color/black">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/score_LBL_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="@dimen/result_size"
+        android:text="TextView"
+        android:textColor="@color/white"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/score_IMG_logo"
+        android:layout_width="@dimen/score_logo_dimen"
+        android:layout_height="@dimen/score_logo_dimen"
+        app:srcCompat="@drawable/logo1"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/default_margin"
+        />
+
+</RelativeLayout>
