@@ -46,6 +46,7 @@ This app requests:
 ```xml
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
+```
 ---
 
 # 🧊 Built with ❤️ by Rotem
