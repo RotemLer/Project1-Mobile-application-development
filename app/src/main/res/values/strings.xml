@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Tar1</string>
+    <string name="move_left">◀</string>
+    <string name="move_right">▶</string>
+    <string name="score_start">000</string>
+    <string name="slow">slow</string>
+    <string name="fast">fast</string>
+    <string name="sensor">Sensor</string>
+    <string name="start">Start</string>
 </resources>
