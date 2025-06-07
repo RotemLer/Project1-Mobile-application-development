@@ -297,10 +297,14 @@ class GameManager(private val activity: Activity,
                             score += Constants.GameLogic.SCORE_DEFAULT
                             showToast("👏 You gained score: $score")
                         }
-                        refreshUI()
                     } else {
-                        showToast("💸 Dollar dropped")
+                        if(checkCollision(row, col)){
+                            score += Constants.GameLogic.SCORE_COIN
+                            showToast("💸 Dollar dropped: $score")
+
+                        }
                     }
+                    refreshUI()
 
                     onFinished()
                 }

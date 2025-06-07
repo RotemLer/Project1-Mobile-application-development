@@ -6,6 +6,8 @@ class Constants {
         const val GRID_END : Int = 4
         const val PENGUIN_START_LOCATION : Int = 2
         const val SCORE_DEFAULT : Int = 1
+        const val SCORE_COIN : Int = 2
+
 
     }
 
