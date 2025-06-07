@@ -28,12 +28,27 @@
 
 ---
 
+## 🗺️ End Screen Overview
+Score Table: Displays time, score, and coordinates
+
+MapView: Shows markers for all recorded games
+
+Interactivity: Clicking a score row animates the map to that game's marker
+
+Navigation: One-tap return to main screen to replay instantly
+
+---
+
+
 ## 🔐 Location Permission
 
 This app requests:
 ```xml
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
+---
 
+# 🧊 Built with ❤️ by Rotem
+A fast-paced, location-enhanced game that blends reflexes with data tracking.
 
-
+---
